@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Algorithms",
+    "description": "Understand the foundations of algorithm design and data management.",
+    "name_of_icon": "Code Blocks"
+  },
+  {
+    "name": "Algebra",
+    "description": "Master the principles of algebra essential for computer science.",
+    "name_of_icon": "Functions"
+  },
+  {
+    "name": "Math Analysis",
+    "description": "Dive into the core concepts of mathematical analysis.",
+    "name_of_icon": "Bar Chart"
+  },
+  {
+    "name": "Operating Systems",
+    "description": "Learn about the essential functions and components of operating systems.",
+    "name_of_icon": "Settings"
+  },
+  {
+    "name": "Computer Architecture",
+    "description": "Explore the structure and behavior of computer systems.",
+    "name_of_icon":"Memory Alt"
+  },
+  {
+    "name": "Office & Web",
+    "description": "Learn essential office software and web technologies to enhance your productivity and web skills.",
+    "name_of_icon": "Work"
+  },
+  {
+    "name": "Written Expression",
+    "description": "Develop your written communication skills, focusing on techniques for clear and effective expression.",
+    "icon": "FaPen",
+    "name_of_icon": "Create"
+  },
+  {
+    "name": "Probability & Stats",
+    "description": "Understand the fundamentals of probability and statistics, and how to apply them in various contexts.",
+    "name_of_icon": "Show Chart"
+  },
+  {
+    "name": "Math Logic",
+    "description": "Explore the principles of mathematical logic, including reasoning, proof techniques, and logical structures.",
+    "name_of_icon": "Calculate"
+  }
+]

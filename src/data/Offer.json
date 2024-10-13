@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Courses",
+    "description": "Access step-by-step tutorials and computer science courses aligned with the ministry program to enhance your learning.",
+    "name_of_icon": "Menu Book"
+  },
+  {
+    "name": "Schedule",
+    "description": "Stay organized with our complete study and exam schedules.",
+    "name_of_icon": "Schedule"
+  },
+  {
+    "name": "Help",
+    "description": "Get assistance with FAQs, contact forms, and live chat support to find the help you need.",
+    "name_of_icon": "Help"
+  }
+]

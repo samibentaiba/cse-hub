@@ -58,7 +58,7 @@ const Navbar = () => {
             }}
           >
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.name}
                 style={{
                   color: "var(--light-blue-text, #0A0A0F)",
@@ -69,10 +69,10 @@ const Navbar = () => {
                   lineHeight: "120.048% ",
                   textDecorationLine: "none",
                 }}
-                href={link.href}
+                to={link.href}
               >
                 {link.name}
-              </a>
+              </Link>
             ))}
           </ul>
         </li>

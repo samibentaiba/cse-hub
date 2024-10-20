@@ -1,14 +1,14 @@
 import React from "react";
 import BoldTextRenderer from "./BoldTextRenderer";
-
+import { Link } from "react-router-dom"; 
 const TextWithLinksRenderer = ({ text, link, bold, continuation }) => {
   return (
     <span>
       <BoldTextRenderer text={text} bold={bold} />
 
       {link && (
-        <a
-          href={link.url}
+        <Link
+          to={link.url}
           target="_blank"
           rel="noopener noreferrer"
           style={{
@@ -18,7 +18,7 @@ const TextWithLinksRenderer = ({ text, link, bold, continuation }) => {
           }}
         >
           {link.text}
-        </a>
+        </Link>
       )}
 
       {continuation && <span>{continuation}</span>}

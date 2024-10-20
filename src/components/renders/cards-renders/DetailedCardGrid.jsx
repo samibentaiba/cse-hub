@@ -1,5 +1,5 @@
 import React from "react";
-import DetailedCard from "../../cards/text-card/DetailedCard.jsx";
+import DetailedCard from "../../cards/image-card/DetailedCard.jsx";
 import detailedCardGridData from "../../../data/courses.json";
 import icons from "../../../data/icons.json";
 

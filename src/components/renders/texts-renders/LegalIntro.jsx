@@ -1,7 +1,7 @@
 import React from "react";
 import PrivacyPolicy from "../../../data/PrivacyPolicy.json";
 import Paragraph from "../../cards/text-card/Paragraph";
-
+import { Link } from "react-router-dom";
 
 const LegalIntro = () => {
   const {
@@ -14,7 +14,7 @@ const LegalIntro = () => {
   } = PrivacyPolicy[0];
 
   const renderLink = (link) => (
-    <a
+    <Link
       style={{
         color: "var(--Accent-accent-500, #6679CC)",
         fontSize: "16px",
@@ -23,12 +23,12 @@ const LegalIntro = () => {
         lineHeight: "24px",
         textDecoration: "none",
       }}
-      href={link.url}
+      to={link.url}
       target="_blank"
       rel="noopener noreferrer"
     >
       {link.text}
-    </a>
+    </Link>
   );
 
   return (
@@ -86,12 +86,6 @@ const LegalIntro = () => {
         </Paragraph>
 
         <Paragraph>{contactSection}</Paragraph>
-
-        {/* Add additional components if needed */}
-        {/* Example usage: */}
-        {/* <ListSection items={someListData} /> */}
-        {/* <TextLinksToPages textData={someTextData} /> */}
-        {/* <TextLinksToWebSites textData={someWebsitesData} /> */}
       </div>
     </div>
   );

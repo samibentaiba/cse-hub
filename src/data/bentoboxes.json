@@ -1,0 +1,22 @@
+[
+  {
+    "headline": "Organized curriculum",
+    "description": "Each course is structured to align with the ministry program, ensuring comprehensive coverage of the subject matter.",
+    "backgroundcolor": "#10183C"
+  },
+  {
+    "headline": "Access to previous exams",
+    "description": "Practice with previous local and international exams to better prepare for your tests.",
+    "backgroundcolor": "#96A1D4"
+  },
+  {
+    "headline": "Teacher tutorials included",
+    "description": "Benefit from detailed tutorials provided by experienced instructors, making complex topics easier to understand.",
+    "backgroundcolor": "#000000"
+  },
+  {
+    "headline": "Real-time discussions",
+    "description": "Engage with other students through comments under course materials for a collaborative learning experience.",
+    "backgroundcolor": "#6679CC"
+  }
+]

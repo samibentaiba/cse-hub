@@ -1,0 +1,187 @@
+/* Container for the Bentoboxes section */
+.bentoboxes-container {
+    display: flex;
+    padding: var(--Units-5xl, 64px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--Units-xl, 32px);
+    align-self: stretch;
+  }
+  
+  /* Heading styles */
+  .bentoboxes-heading {
+    color: var(--light-blue-text, #0A0A0F);
+    font-family: var(--Text-font-family, 'Space Grotesk');
+    font-size: 39.808px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    align-self: stretch;
+  }
+  
+  /* Grid styles */
+  .bentoboxes-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Create 12 equal-width columns */
+    grid-template-rows: 2; /* Auto rows based on content */
+    gap: var(--Units-m, 1rem);
+    width: 100%;
+  }
+  
+  /* BentoBox styles */
+  .bento-box {
+    display: flex;
+    width: 600px; /* Set a consistent width for the BentoBox */
+    height: 184px; /* Set a consistent height for the BentoBox */
+    padding: var(--Units-xl, 32px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--Units-m, 16px);
+    flex-shrink: 0;
+    border-radius: var(--Units-m, 16px);
+    position: relative; /* Needed for absolute positioning of text */
+    overflow: hidden; /* Prevent overflow */
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+  }
+  
+  /* Conditional styles for the highlighted BentoBox */
+  .bento-box.highlight {
+    border: 3px solid #FF5733; /* Red border for highlighted BentoBox */
+    background-color: #F0E68C; /* Change background color for highlighted BentoBox */
+    transform: scale(1.05); /* Slightly scale the highlighted BentoBox */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2); /* Add shadow to highlighted BentoBox */
+  }
+  
+  /* Text styles */
+  .bento-box h6, .bento-box p {
+    color: var(--text-color, #FFFFFF); /* Use a variable or default white */
+    font-family: var(--Text-font-family, 'Space Grotesk');
+  }
+  
+  .bento-box h6 {
+    font-size: 23.04px;
+    font-weight: 700;
+    line-height: 138.889%;
+  }
+  
+  .bento-box p {
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 125%;
+  }
+  
+
+  /* Container for the BentoBoxes */
+.bentoboxes-container {
+  display: flex;
+  padding: var(--Units-5xl, 64px);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--Units-xl, 32px);
+  align-self: stretch;
+}
+
+/* Grid styles for the BentoBoxes */
+.bentoboxes-grid {
+  display: grid;
+  gap: 36px; /* Space between grid items */
+  grid-template-columns: repeat(12, 1fr); /* 12 equal-width columns */
+  grid-template-rows: repeat(3, auto); /* Adjust rows based on content */
+}
+
+/* Styles for individual BentoBoxes */
+.bento-box {
+  display: flex;
+  flex-direction: column;
+  padding: var(--Units-xl, 32px);
+  border-radius: var(--Units-m, 16px);
+  overflow: hidden; /* Prevent overflow */
+  transition: transform 0.3s ease; /* Smooth transitions */
+}
+
+/* Example spans for specific BentoBoxes */
+.bento-box.first_one {
+  background-color: hsl(263, 55%, 52%);
+  grid-column: span 6; /* Span 6 columns */
+  grid-row: span 2; /* Span 2 rows */
+}
+
+.bento-box.second_one {
+  background-color: hsl(217, 19%, 35%);
+  grid-column: span 3; /* Span 3 columns */
+}
+
+.bento-box.third_one {
+  grid-column: span 3; /* Span 3 columns */
+  grid-row: 2; /* Move to the second row */
+}
+
+.bento-box.forth_one {
+  background-color: hsl(219, 29%, 14%);
+  grid-column: span 6; /* Span 6 columns */
+}
+
+.bento-box.fifth_one {
+  grid-column: 12; /* Place in the last column */
+  grid-row: span 3; /* Span 3 rows */
+  padding: 20px; /* Additional padding */
+}
+.bentoboxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--Units-5xl, 64px);
+}
+
+.bentoboxes-heading {
+  color: var(--light-blue-text, #0A0A0F);
+  font-family: var(--Text-font-family, 'Space Grotesk');
+  font-size: 39.808px;
+  font-weight: 700;
+  line-height: 40px;
+  align-self: stretch;
+}
+
+.bentoboxes-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: var(--Units-m, 1rem);
+  width: 100%;
+}
+
+.bento-box {
+  width: 600px;
+  height: 184px; /* Adjust height if needed */
+  padding: var(--Units-xl, 32px);
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--Units-m, 16px);
+  border-radius: var(--Units-m, 16px);
+  position: relative;
+  overflow: hidden;
+}
+
+.first_one {
+  background-color: hsl(263, 55%, 52%);
+  grid-column: span 2;
+}
+
+.second_one {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.third_one {
+  grid-row: 2;
+}
+
+.forth_one {
+  background: hsl(219, 29%, 14%);
+  grid-column: span 2;
+}
+
+.fifth_one {
+  grid-column: 4;
+  grid-row: 1 / span 2; /* Adjust as needed */
+}

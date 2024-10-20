@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Algorithms",
+    "name_of_icon": "Code Blocks"
+  },
+  {
+    "name": "Algebra",
+    "name_of_icon": "Functions"
+  },
+  {
+    "name": "Math Analysis",
+    "name_of_icon": "Bar Chart"
+  },
+  {
+    "name": "Operating Systems",
+    "name_of_icon": "Settings"
+  },
+  {
+    "name": "Computer Architecture",
+    "name_of_icon":"Memory Alt"
+  },
+  {
+    "name": "Office & Web",
+    "name_of_icon": "Work"
+  },
+  {
+    "name": "Written Expression",
+    "name_of_icon": "Create"
+  },
+  {
+    "name": "Probability & Stats",
+    "name_of_icon": "Show Chart"
+  },
+  {
+    "name": "Math Logic",
+    "name_of_icon": "Calculate"
+  }
+]

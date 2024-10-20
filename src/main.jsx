@@ -11,6 +11,7 @@ import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
 import Error from "./pages/Error.jsx";
 import Courses from "./pages/Courses.jsx";
+import Policy from "./pages/Policy.jsx";
 import App from "./App"; // Import App component
 
 const router = createBrowserRouter([
@@ -41,12 +42,16 @@ const router = createBrowserRouter([
         element: <Courses />,
       },
       {
+        path: "privacy",
+        element: <Policy />,
+      },
+      {
         path: "signup", // Signup path
         element: <Signup />,
       },
       {
         path: "*", // Catch-all for undefined routes
-        element: <Error />, // Show Error page for unknown routes
+        element: <Error />, // SectionRenderer Error page for unknown routes
       },
     ],
   },

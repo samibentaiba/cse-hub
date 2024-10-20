@@ -1,10 +1,9 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import "./App.css";
-import Navbar from "./components/Sections/Navbar.jsx";
-import Footer from "./components/Sections/Footer.jsx";
+import Navbar from "./components/sections/Navbar.jsx";
+import Footer from "./components/sections/Footer.jsx";
 function App() {
-  return (
+  return (//npm i
     <div>
       <Navbar />
       <Outlet />

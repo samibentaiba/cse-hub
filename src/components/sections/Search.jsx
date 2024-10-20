@@ -87,15 +87,14 @@ function SearchBar() {
       </div>
       <div
         style={{
+          display: "flex",
           position: "relative",
-          borderRadius: "10px",
           backgroundColor: "#fff",
           width: "300px",
-          display: "flex",
           alignItems: "center",
           borderRadius: "var(--Spacing-S, 8px)",
           border: "1px solid var(--Grayscale-gray-600, #5A5A5E)",
-          transition: "border-color 0.3s ease", // Smooth border transition on focus
+          transition: "border-color 0.3s ease",
         }}
       >
         {/* Search Icon */}

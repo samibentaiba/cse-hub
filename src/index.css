@@ -1,7 +1,10 @@
 :root {
-  background-color: #ffffff;
+  background: var(--Grayscale-gray-100, #f5f6fa);
 }
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
 }

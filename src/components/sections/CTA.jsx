@@ -75,7 +75,6 @@ const CTA = ({ headline, description, hero_img, isbutton }) => {
                 fontStyle: "normal",
                 fontWeight: "400",
                 lineHeight: "150% ",
-                alignSelf: "stretch",
               }}
             >
               {description}

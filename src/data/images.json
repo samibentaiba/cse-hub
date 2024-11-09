@@ -1,0 +1,377 @@
+[
+  {
+    "account_number": null,
+    "accounting_entry_type": "debit",
+    "balance": null,
+    "barcodes": [],
+    "bill_to": {
+      "address": null,
+      "email": null,
+      "name": null,
+      "parsed_address": null,
+      "phone_number": null,
+      "reg_number": null,
+      "vat_number": null
+    },
+    "cashback": null,
+    "category": null,
+    "created_date": "2024-10-12 03:15:08",
+    "currency_code": "USD",
+    "custom_fields": {},
+    "date": null,
+    "default_category": null,
+    "delivery_date": null,
+    "delivery_note_number": null,
+    "discount": null,
+    "document_reference_number": null,
+    "document_title": null,
+    "document_type": null,
+    "due_date": null,
+    "duplicate_of": 249789817,
+    "exch_rate": 1,
+    "external_id": null,
+    "final_balance": null,
+    "guest_count": null,
+    "id": 249789836,
+    "img_blur": false,
+    "img_file_name": "249789836.png",
+    "img_thumbnail_url": "https://scdn.veryfi.com/receipts/a97b60d6266cfadf/ac7d82bd-dab6-4b10-aa48-1ebeba6ff7c4/thumbnail.png?Expires=1728706509&Signature=IzcAag2TloOrR7QpqI0QWd46XfgiQfMcv3I41SRAY~ClN1qlhwsM-plLU-kO6L0IgzTVhfN1YjHaigDqvSGzhNHKLCpJsvmrtKKfMCAccHR2bXJnbPjKWALNJRWaBwfEidVDxyaTEaYOhimVXIwW4BLZ4jehN7AtijskgFW93fTZoW-s2J9FydVKdHImvFo7jlpwsJSP7yzMaizIgRFXwK8ATXQ7qANPxOn-HZFtNvrJeID-1XFsa8~Lw2KZmQqRS-G8TiEC2HwrYpHA4H6dfXqwLllhRzPqCrS~hd-paO8x9TdCyZxS8BgCpdZBQwTYMRp3EYs6yLTxdJg4s6NeZQ__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "img_url": "https://scdn.veryfi.com/receipts/a97b60d6266cfadf/ac7d82bd-dab6-4b10-aa48-1ebeba6ff7c4/ad3deb8d-9afc-4297-8966-2c72a92cd0c6.png?Expires=1728706509&Signature=TEhtAOU6V-JTvne1pK~ijOnb6PUNgmGPsS0e5vz-KQoJtbcbB75zyGLYD95bAs2diFEV3GMWuhGdTn8u7cFC18bGY3ntGrXPhymFoIiPOT94fetT4j2RaTYEJXt4eudfj8qtmc-U31Slpm~48AG9E9PxWbWSWe4HEKvHOZGbrJYXwENVPxFtL7gh36cAmymWkKnBhqR7rbrA-VuQibXP~Zm9iJbGH0L5eS9GZ~hJyi3bY-KVUKtjW42H4MLQ9s9mxJtaYhL92unACZca4iC0gdtSepnFoZQxg9zd2HSVqNdttmUDnITozrCRbQjZ~gV-tz9OaL-bwASdy0IChRhLGA__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "incoterms": null,
+    "insurance": null,
+    "invoice_number": null,
+    "is_approved": false,
+    "is_blurry": [true],
+    "is_document": false,
+    "is_duplicate": true,
+    "is_money_in": null,
+    "license_plate_number": null,
+    "line_items": [],
+    "meta": {
+      "fraud": {
+        "attribution": null,
+        "color": "green",
+        "custom_types": [],
+        "decision": "Not Fraud",
+        "images": [
+          {
+            "is_lcd": false,
+            "score": 0.95
+          }
+        ],
+        "pages": [
+          {
+            "is_lcd": {
+              "score": 0.95,
+              "value": false
+            }
+          }
+        ],
+        "score": 0.05,
+        "submissions": {},
+        "types": [],
+        "version": null
+      },
+      "handwritten_fields": [],
+      "language": [],
+      "owner": "api_demo",
+      "pages": [
+        {
+          "height": 428,
+          "is_blurry": {
+            "score": 0.87,
+            "value": true
+          },
+          "language": [],
+          "width": 427
+        }
+      ],
+      "processed_pages": 1,
+      "source": "api",
+      "source_documents": [
+        {
+          "height": 428,
+          "size_kb": 204,
+          "width": 427
+        }
+      ],
+      "total_pages": 1,
+      "warnings": []
+    },
+    "notes": null,
+    "order_date": null,
+    "payment": {
+      "card_number": null,
+      "display_name": null,
+      "terms": null,
+      "type": null
+    },
+    "pdf_url": "https://scdn.veryfi.com/receipts/a97b60d6266cfadf/ac7d82bd-dab6-4b10-aa48-1ebeba6ff7c4/66f7310d-b448-4943-a826-e0a9b68c9ca9.pdf?Expires=1728706509&Signature=PeR2cOJ5DYaYtOIyspsvKrA~3D580RhvquopF2EZfJbkeF7v-SyaAbjGkgFKcgUxZTPti1M4ypUEK5KQZIb50CXUNz0AO-S5QFoADBUh-su5x387GhETNsTyqqSK-jlyo6ATTrXXSHLJUajR6FfVXcgsOzzrVxf0dH4nuotlTcqB5BVGCUgFEtcZjF86HMCbanzJi75idppuE3ouhk-i3aPdjsXX4Nsl6umaAf3255zE9uqlhXDBUW3ekJDMtaZTSsMI0mtsjrrMVxeEr8NILn-8dunjWsJLQm1b~v64b6MyRiJbsG9JX92942ayxkGvs4-~10CZQNmHcCHULL8qOQ__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "purchase_order_number": null,
+    "reference_number": "VCDBH-89836",
+    "rounding": null,
+    "service_end_date": null,
+    "service_start_date": null,
+    "ship_date": null,
+    "ship_to": {
+      "address": null,
+      "name": null,
+      "parsed_address": null
+    },
+    "shipping": null,
+    "store_number": null,
+    "subtotal": null,
+    "tags": [],
+    "tax": null,
+    "tax_lines": [],
+    "tip": null,
+    "total": null,
+    "total_weight": null,
+    "tracking_number": null,
+    "updated_date": "2024-10-12 03:15:09",
+    "vending_person": null,
+    "vending_person_number": null,
+    "vendor": {
+      "abn_number": null,
+      "account_number": null,
+      "address": null,
+      "bank_name": null,
+      "bank_number": null,
+      "bank_swift": null,
+      "category": null,
+      "email": null,
+      "fax_number": null,
+      "iban": null,
+      "lat": null,
+      "lng": null,
+      "logo": null,
+      "map_url": null,
+      "name": null,
+      "parsed_address": {},
+      "phone_number": null,
+      "raw_address": null,
+      "raw_name": null,
+      "reg_number": null,
+      "type": null,
+      "vat_number": null,
+      "web": null
+    },
+    "vendors": []
+  },
+  {
+    "account_number": null,
+    "bill_to": {
+      "address": null,
+      "name": null,
+      "parsed_address": null,
+      "vat_number": null
+    },
+    "cashback": null,
+    "category": null,
+    "created_date": "2024-10-12 03:26:37",
+    "currency_code": "DZD",
+    "date": null,
+    "delivery_date": null,
+    "discount": null,
+    "document_reference_number": null,
+    "document_title": null,
+    "document_type": null,
+    "due_date": null,
+    "duplicate_of": null,
+    "external_id": null,
+    "id": 249790799,
+    "img_file_name": "249790799.png",
+    "img_thumbnail_url": "https://scdn.veryfi.com/receipts/5248646798192f87/718f94ff-7ca0-4344-a1ff-6e14e5b17493/thumbnail.png?Expires=1728704533&Signature=Q4LTUuVTfAF2xx78EzYwNqVupJRNoFn2eQR-PAtQGEEU9x0OAJUKrypIKD6Xa5BB~-5icFv6vZnwJLBolG6KU~8hPgTTkeGyquzhrrcHcxpSitDKwJhLCROYZOJnHRRJGbMK4cLTuFeiER646sO5fVZFs3gZqWlT3XCNPP7BbhWAQB-VnJMH-IoRN0cCUX~bkw1jdIGscjPfURHdLtFKzG8csDyAq106blcdynQ6O9vhN0QReygbyamNCsBVxi1-ux7tt-hT0~p1KrMVzsFVfFnFcwdvjmhHwaXXub97xGs0xOFwBie-4RA6uXCIlydwWh-ItY-63GEyE2PLH24qpQ__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "img_url": "https://scdn.veryfi.com/receipts/5248646798192f87/718f94ff-7ca0-4344-a1ff-6e14e5b17493/8290b562-478a-44e0-9181-0eadf47a86fa.png?Expires=1728704533&Signature=BJs92VGf4rQFX3lgOHnwQyPMWAYpHn5Cd3mNuifhRSvwrT9T-IYjWLe8GDRI6WBtB8EVxSNw7cd9eKjSQpm4iYnTQf2GSB0AVMxoLL~UlIA6E-lW2Q4KRNANhlsXQ5sXU5HRIgkl1Js~FRJApHGO-XC8NtAb77L~cRdxsCkYmyXCwWnVjINm4Q685bjc7kI0kc3wPGDEjmq0exaYn-ID1BYIUd97sVhR1QUTGc53F0QeA1pE~4F8-Xq2xw4ybVuj69fZiEnBguEPYQ26aTVKiOV0F0e6hSnx5S7ULvh8WI4pS~rDdiQNwxez8XU9iAm2NaKuNpR3A9ve2ffW9IGfyg__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "insurance": null,
+    "invoice_number": null,
+    "is_duplicate": false,
+    "is_money_in": null,
+    "line_items": [],
+    "meta": {
+      "language": [],
+      "owner": "samibentaiba25",
+      "pages": [
+        {
+          "height": 428,
+          "language": [],
+          "width": 427
+        }
+      ],
+      "processed_pages": 1,
+      "source": "api.web",
+      "source_documents": [
+        {
+          "height": 428,
+          "size_kb": 179,
+          "width": 427
+        }
+      ],
+      "total_pages": 1
+    },
+    "notes": null,
+    "ocr_text": "",
+    "order_date": null,
+    "payment": {
+      "card_number": null,
+      "display_name": null,
+      "terms": null,
+      "type": null
+    },
+    "pdf_url": "https://scdn.veryfi.com/receipts/5248646798192f87/718f94ff-7ca0-4344-a1ff-6e14e5b17493/ed380a5a-bc56-4363-976b-76888baa6cc3.pdf?Expires=1728704533&Signature=LOaYxtzeNKcxWL41rXxmHK6UlL~~nGOHJFTMhG1i-UgRSKz8M307KQcsz96bnsImWRbih4moUv1gODgsWlQFJ96QDkxY-WZP61XxqHnEn3uyppEBfQF2pYetqZdnPRuwXFGUY71GiVOEK~yBB5q0eAzMYxGz5oL79~yTH5iI~usE2vr7RiB7Wp~FeC7jaebvu1JH15zGQ-whB1BgDvg~JCiqoA5EJZcezXTJLTIdk~Ae6z5xDgXTcKqLWHWl4A3zTB8cSqKGNgNPJI1vgj1ARuRkUNGuT91KNxMGq1Ek7etDXtprAY7CzprvrWktHGW2FsAkUODa8MgWZc-cQ4mlGg__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "purchase_order_number": null,
+    "reference_number": "VCDBH-90799",
+    "rounding": null,
+    "service_end_date": null,
+    "service_start_date": null,
+    "ship_date": null,
+    "ship_to": {
+      "address": null,
+      "name": null,
+      "parsed_address": null
+    },
+    "shipping": null,
+    "store_number": null,
+    "subtotal": null,
+    "tags": [],
+    "tax": null,
+    "tax_lines": [],
+    "tip": null,
+    "total": null,
+    "total_weight": null,
+    "tracking_number": null,
+    "updated_date": "2024-10-12 03:26:37",
+    "vendor": {
+      "abn_number": null,
+      "account_number": null,
+      "address": null,
+      "bank_name": null,
+      "bank_number": null,
+      "bank_swift": null,
+      "category": null,
+      "email": null,
+      "fax_number": null,
+      "iban": null,
+      "lat": null,
+      "lng": null,
+      "logo": null,
+      "name": null,
+      "parsed_address": {},
+      "phone_number": null,
+      "raw_address": null,
+      "raw_name": null,
+      "reg_number": null,
+      "type": null,
+      "vat_number": null,
+      "web": null
+    }
+  },
+  {
+    "account_number": null,
+    "bill_to": {
+      "address": null,
+      "name": null,
+      "parsed_address": null,
+      "vat_number": null
+    },
+    "cashback": null,
+    "category": null,
+    "created_date": "2024-10-12 03:26:37",
+    "currency_code": "DZD",
+    "date": null,
+    "delivery_date": null,
+    "discount": null,
+    "document_reference_number": null,
+    "document_title": null,
+    "document_type": null,
+    "due_date": null,
+    "duplicate_of": null,
+    "external_id": null,
+    "id": 249790799,
+    "img_file_name": "249790799.png",
+    "img_thumbnail_url": "https://scdn.veryfi.com/receipts/5248646798192f87/718f94ff-7ca0-4344-a1ff-6e14e5b17493/thumbnail.png?Expires=1728704609&Signature=N84nw3CZ95rhNlh12iUod7M22gIPMBkF9OtYplZp0~Mw360iXMLbw07gwHkYlfLEQDk004mIJE6CSHtGpFpWACwab3peSb1~8FF0XqBBqY2v2-KdUlzvaRcvAQS-vGrJAQI8C6jzvOcOsDHYGqw4T0C2PthXqaTACYlGe3mjXTAx-MDrZ~tYq00vz7ooa3WV97pbBqJ18LSh9Bjalu3Q~JXZQn0s91V-M1jMgfjFZ~bbe0R7QgYmjdFECJAGOA5V66M3NRjfjwsffsjN~Jtu12EOycbResIS1ju~VWiimJ2d4vFItXA2KtXYg4rTrNnEexEdUq0YbP9sWR4hs4Z1Pg__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "img_url": "https://scdn.veryfi.com/receipts/5248646798192f87/718f94ff-7ca0-4344-a1ff-6e14e5b17493/8290b562-478a-44e0-9181-0eadf47a86fa.png?Expires=1728704609&Signature=WMYjc2~bSS-CypPKo1G2oauLKaLmGYXvgmcCqlL-MTz9yTRJLbeRM8YJ1NWnPFKegYrIFoMjDpLDvGtdPfKSuro4uaUYXjaVb48PZOnJt7lTCxuyt773-g5j4xq-XzndkSiLnOsPG4GYO3IPQ3RGqwa4uaZ~0hXhHKZpeRbuDdBWFjHuOoH-S3zyPfj7S6x-6R9K9WPFFQM4UDpSbyIZA23Oa9BxpmOECcVy61aanx4aqQLS2a5UGAzOQb5ypJF0ZlWv0r~AoPmH9HWnj~f6zaptCJvrMlW-NlH35hT-EgzSuxgBWuGn0r68CIzewe6u1G1Qyr7VsIQZ3vF8QejjZw__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "insurance": null,
+    "invoice_number": null,
+    "is_duplicate": false,
+    "is_money_in": null,
+    "line_items": [],
+    "meta": {
+      "language": [],
+      "owner": "samibentaiba25",
+      "pages": [
+        {
+          "height": 428,
+          "language": [],
+          "width": 427
+        }
+      ],
+      "processed_pages": 1,
+      "source": "api.web",
+      "source_documents": [
+        {
+          "height": 428,
+          "size_kb": 179,
+          "width": 427
+        }
+      ],
+      "total_pages": 1
+    },
+    "notes": null,
+    "ocr_text": "",
+    "order_date": null,
+    "payment": {
+      "card_number": null,
+      "display_name": null,
+      "terms": null,
+      "type": null
+    },
+    "pdf_url": "https://scdn.veryfi.com/receipts/5248646798192f87/718f94ff-7ca0-4344-a1ff-6e14e5b17493/ed380a5a-bc56-4363-976b-76888baa6cc3.pdf?Expires=1728704609&Signature=U2NRO6x0cp~4ueZK8XLYUEYx~VTUWIoizU3bZMPdr9-mIkjbb-5Fete~0fj2o~WnYpkMz1WVxKXW4E9zbaM7XBYjPNWCl1eXvNCjoVIiiDs4y9lol0Of0H8ZgLt7gGUlMcfVwq5MxUwfuv419XJ2nxsj9bS~ERDcGxfRNkg2JP6IYVnNUEGLIv9r5aBIFu1-73jnJBlscHEOlhDSGLLd2s1XO-XQ7soazrs-fLekwC6iYCBPDT6CBDt4K8cIzDaXmVMLorcIV9GAE1M-MtvNX6Vr2EoI7q3FUrjS1aY73Czg-GQ1evMqtXhkUL1rUb53G2Jc9wCHatyCgUYFINL8Xw__&Key-Pair-Id=APKAJCILBXEJFZF4DCHQ",
+    "purchase_order_number": null,
+    "reference_number": "VCDBH-90799",
+    "rounding": null,
+    "service_end_date": null,
+    "service_start_date": null,
+    "ship_date": null,
+    "ship_to": {
+      "address": null,
+      "name": null,
+      "parsed_address": null
+    },
+    "shipping": null,
+    "store_number": null,
+    "subtotal": null,
+    "tags": [],
+    "tax": null,
+    "tax_lines": [],
+    "tip": null,
+    "total": null,
+    "total_weight": null,
+    "tracking_number": null,
+    "updated_date": "2024-10-12 03:26:37",
+    "vendor": {
+      "abn_number": null,
+      "account_number": null,
+      "address": null,
+      "bank_name": null,
+      "bank_number": null,
+      "bank_swift": null,
+      "category": null,
+      "email": null,
+      "fax_number": null,
+      "iban": null,
+      "lat": null,
+      "lng": null,
+      "logo": null,
+      "name": null,
+      "parsed_address": {},
+      "phone_number": null,
+      "raw_address": null,
+      "raw_name": null,
+      "reg_number": null,
+      "type": null,
+      "vat_number": null,
+      "web": null
+    }
+  }
+]

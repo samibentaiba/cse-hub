@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 
-<<<<<<< HEAD
 const Inputbar = ({ placeholder, isPassword, value, onChange }) => {
-=======
-const Inputbar = ({ placeholder, isPassword }) => {
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
   const [showPassword, setShowPassword] = useState(false);
 
   const togglePasswordVisibility = () => {
@@ -28,11 +24,8 @@ const Inputbar = ({ placeholder, isPassword }) => {
       <input
         type={isPassword && !showPassword ? "password" : "text"}
         placeholder={placeholder}
-<<<<<<< HEAD
         value={value} // Pass the value prop here
         onChange={onChange} // Pass the onChange prop here
-=======
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
         style={{
           width: "100%",
           padding: "4px 12px",
@@ -67,11 +60,7 @@ const Inputbar = ({ placeholder, isPassword }) => {
   );
 };
 
-<<<<<<< HEAD
 const InputField = ({ placeholder, isLarge, isPassword, value, onChange }) => {
-=======
-const InputField = ({ placeholder, isLarge, isPassword }) => {
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
   return (
     <div
       style={{
@@ -89,16 +78,12 @@ const InputField = ({ placeholder, isLarge, isPassword }) => {
         transition: "border-color 0.3s ease",
       }}
     >
-<<<<<<< HEAD
       <Inputbar
         placeholder={placeholder}
         isPassword={isPassword}
         value={value}
         onChange={onChange}
       />
-=======
-      <Inputbar placeholder={placeholder} isPassword={isPassword} />
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
     </div>
   );
 };

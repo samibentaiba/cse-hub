@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import React from "react";
 import PropTypes from "prop-types"; // Import PropTypes
@@ -20,14 +19,6 @@ const PrimaryButton = ({
     }
   };
 
-=======
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
-import React from "react";
-
-const PrimaryButton = ({ txt, full, to, icon, external }) => {
-  const path = "/" + to;
-
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
   const buttonContent = (
     <button
       style={{
@@ -42,11 +33,8 @@ const PrimaryButton = ({ txt, full, to, icon, external }) => {
         width: full ? "100%" : "auto",
         border: "none",
       }}
-<<<<<<< HEAD
       aria-label={txt} // Accessibility improvement
       onClick={handleClick} // Trigger the onClick handler here
-=======
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
     >
       {icon && (
         <svg
@@ -77,20 +65,14 @@ const PrimaryButton = ({ txt, full, to, icon, external }) => {
       </p>
     </button>
   );
-<<<<<<< HEAD
 
-=======
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
   return external ? (
     <a
       href={to}
       target="_blank"
       rel="noopener noreferrer"
       style={{ textDecoration: "none", width: full ? "100%" : "auto" }}
-<<<<<<< HEAD
       aria-label={txt} // Accessibility improvement for external links
-=======
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
     >
       {buttonContent}
     </a>
@@ -98,10 +80,7 @@ const PrimaryButton = ({ txt, full, to, icon, external }) => {
     <Link
       to={path}
       style={{ textDecoration: "none", width: full ? "100%" : "auto" }}
-<<<<<<< HEAD
       aria-label={txt} // Accessibility improvement for internal links
-=======
->>>>>>> 8b990d1fd969a1f71a9b59542848747b78a722fa
     >
       {buttonContent}
     </Link>
